@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <title>search</title>
+        <title>Google UI Clone</title>
+        <!-- google font icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="common.css">
     </head>
 
     <body>
-        <div id="header">
-            
+        <!-- Header start -->
+        <div class="header">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <span class="material-icons header_apps">apps</span>
+            <span class="material-icons header_account">account_circle</span>
         </div>
 
-        <div>
-            <img id="logo" src="logo.png">
+        <div class="mainbody">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
         </div>
 
-        <div id="search_box">
-            <form action="https://www.google.com/search">
-                <input id="search_box" type="text" name="q"><br/>
-                <button>Search</button>
-            </form>
+        <!-- Search start -->
+        <div class="search">
+            <div class="search_input">
+                <span class="material-icons">search</span>
+                <input type="text">
+                <span class="material-icons mic">mic</span>
+            </div>
+
+            <div class="search_buttons">
+                <button>Google Search</button>
+                <button>I'm feeling lucky</button>
+            </div>
         </div>
     </body>
 </html>
