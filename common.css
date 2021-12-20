@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: arial,sans-serif;
 }
 
 /* header */
@@ -82,6 +83,17 @@ body {
     cursor: pointer;
 }
 
+.search_input .search {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #4285f4;
+}
+
+.search_input .photo_camera {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
 .search_buttons {
     margin-top: 30px;
     display: flex;
@@ -101,3 +113,10 @@ body {
     border: solid 1px gray;
     border-radius: 5px;
 }
+
+button a {
+    margin-right: 20px;
+    font-size: 15px;
+    text-decoration: inherit;
+}
+
